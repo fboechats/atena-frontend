@@ -86,7 +86,6 @@ export const Button = styled.button`
 export const LinkedinButton = styled.div`
   width: 100%;
   .bt-linkedin {
-    align-items: center;
     background-color: ${theme.color.linkedin};
     border: 0;
     border-radius: 3px;
@@ -107,6 +106,10 @@ export const LinkedinButton = styled.div`
     img {
       margin-left: 12px;
       max-width: 80px;
+    }
+
+    p {
+      margin-top: auto;
     }
   }
 `
