@@ -89,7 +89,7 @@ class Auth extends Component {
               onSuccess={this.handleLinkedinSuccess}
               redirectUri={callbackUrl}
               scope="r_liteprofile">
-              <p>Logar com</p>
+              <span>Logar com</span>
               <img src={linkedinIcon} alt="Linkedin" />
             </LinkedIn>
           </LinkedinButton>
